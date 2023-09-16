@@ -1,0 +1,13 @@
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "regions" {}
+variable "vpc_cidr" {}
+variable "subnet1_cidr" {}
+variable "subnet2_cidr" {}
+variable "subnet3_cidr" {}
+variable "subnet4_cidr" {}
+variable "imageid" {}
+variable "instance_flavour" {}
+variable "user_key_name" {}
+variable "vpc2_cidr" {}
+variable "subnet1_vpc2_cidr" {}
