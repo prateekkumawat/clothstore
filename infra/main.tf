@@ -219,3 +219,7 @@ resource "aws_security_group" "vpc2_sec" {
 output "publicip" { 
  value = aws_instance.myins.public_ip
 }
+
+data "aws_vpc" "mydraing" { 
+  id = "vpc-23456234234"
+}
